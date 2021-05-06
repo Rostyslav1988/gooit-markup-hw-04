@@ -71,7 +71,7 @@ img {
     justify-content: flex-end;
 }
 .contacts a:hover {
-    fill: #2196F3;
+    color: #2196F3;
     transition: 250ms;
 }
 .header .container {
@@ -154,10 +154,7 @@ margin-left: 30px;
 .b-radius:focus {
     background: var(--focus-color);
 }
-.contacts a:hover {
-    fill: #2196F3;
-    transition: 250ms;
-}
+
 .mail-link {
     display: flex;
     justify-content: center;
@@ -323,7 +320,7 @@ fill: var(--color-second-text);
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(back-ground);
+    border: 1px solid var(--back-ground);
     box-sizing: border-box;
     border-radius: 4px;
     width: 170px;
@@ -1188,7 +1185,7 @@ padding-top: 94px;
 .is-hidden {
     visibility: hidden;
     opacity: 0;
-    pointer-events: none;
+
 }
 .modal {
     position: absolute;
