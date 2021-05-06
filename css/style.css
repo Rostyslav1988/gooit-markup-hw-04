@@ -570,8 +570,12 @@ margin-top: 0;
 margin-bottom: 0;
     display: flex;
 }
-
-
+.top-menu2 .menu{
+    transition: 250ms;
+}
+.top-menu2 .menu2{
+    transition: 250ms;
+}
 .margin {
     margin-top: 30px;
 }
