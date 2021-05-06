@@ -196,6 +196,10 @@ fill: var(--color-second-text);
     color: var(--focus-color);
     text-decoration: none;
 }
+.tel-link:hover,
+.tel-link:focus {
+    fill: var(--focus-color);
+}
 
 .logo-link {
     font-family: "Raleway";
