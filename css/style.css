@@ -248,7 +248,7 @@ margin-left: 30px;
     border-radius: 4px;
     width: 170px;
     height: 90px;
-border: 1px solid var(--focus-color);
+
     fill: var(--back-ground);
 }
 .ditail {
@@ -261,6 +261,9 @@ border: 1px solid var(--focus-color);
 
 
 }
+.bord-clents:hover {
+ border: 1px solid var(--focus-color);
+}
 
 
 .lo-go:hover,
@@ -272,7 +275,7 @@ border: 1px solid var(--focus-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--back-ground);
+
     box-sizing: border-box;
     border-radius: 4px;
     width: 170px;
@@ -818,7 +821,7 @@ fill: var(--color-second-text);
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--back-ground);
+
     box-sizing: border-box;
     border-radius: 4px;
     width: 170px;
