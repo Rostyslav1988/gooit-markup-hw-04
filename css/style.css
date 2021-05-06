@@ -662,7 +662,10 @@ border-radius: 4px;
     
 }
 
-
+.btn-close:hover,
+.btn-close:focus{
+    fill: var(--focus-color)
+}
 
 .welcom {
 font-weight: bold;
@@ -1076,4 +1079,5 @@ padding-top: 94px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 250ms;
 }
